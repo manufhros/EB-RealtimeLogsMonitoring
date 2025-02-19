@@ -1,0 +1,27 @@
+manu@manupse:~/eclipse-workspace/log4j2-test$ sudo systemctl start opensearch
+manu@manupse:~/eclipse-workspace/log4j2-test$ fluentd -c /home/manu/Downloads/opensearch/fluent/fluent.conf -vv
+sudo systemctl start opensearch-dashboards
+
+Iniciar la aplicación Log4j2
+Si usas un .jar:
+
+bash
+Copy
+Edit
+java -jar /ruta/a/tu/aplicacion.jar
+Si lo corres desde Maven en Eclipse o IntelliJ:
+
+bash
+Copy
+Edit
+mvn clean package
+java -jar target/tu-aplicacion.jar
+4️⃣ Verificar que los logs llegan a OpenSearch
+Ejecuta:
+
+bash
+Copy
+Edit
+curl -u admin:EriPasswd77! -X GET "https://localhost:9200/log4j2-logs/_search?pretty" --insecure
+Si ves registros en JSON, significa que todo funciona correctamente. 🚀
+

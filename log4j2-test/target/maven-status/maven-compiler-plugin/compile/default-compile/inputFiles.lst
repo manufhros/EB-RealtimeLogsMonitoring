@@ -1,0 +1,8 @@
+/home/manu/eclipse-workspace/log4j2-test/src/main/java/com/example/App.java
+/home/manu/eclipse-workspace/log4j2-test/src/main/java/com/example/routes/ErrorHandlingRoute.java
+/home/manu/eclipse-workspace/log4j2-test/src/main/java/com/example/routes/RutaPago.java
+/home/manu/eclipse-workspace/log4j2-test/src/main/java/com/example/LogFilterProcessor.java
+/home/manu/eclipse-workspace/log4j2-test/src/main/java/com/example/routes/PaymentRoute.java
+/home/manu/eclipse-workspace/log4j2-test/src/main/java/com/example/routes/TransactionRoute.java
+/home/manu/eclipse-workspace/log4j2-test/src/main/java/com/example/routes/NotificationRoute.java
+/home/manu/eclipse-workspace/log4j2-test/src/main/java/com/example/routes/AuditRoute.java
